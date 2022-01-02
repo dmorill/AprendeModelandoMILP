@@ -1,0 +1,11 @@
+reset;
+
+model AsignacionPilotos.mod;
+data AsignacionPilotos.dat;
+
+option solver gurobi;
+
+solve;
+
+display z, x;
+expand r1,r2;

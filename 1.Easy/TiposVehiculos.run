@@ -1,0 +1,9 @@
+reset;
+
+model TiposVehiculos.mod;
+
+option solver gurobi;
+
+solve;
+
+display z, x, y;

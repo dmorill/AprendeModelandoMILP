@@ -1,0 +1,9 @@
+reset;
+
+model AparatosTecnologicos.mod;
+
+option solver cplex;
+
+solve;
+
+display z,x1,x2;

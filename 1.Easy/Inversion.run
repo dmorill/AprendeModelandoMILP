@@ -1,0 +1,10 @@
+reset;
+
+model Inversion.mod;
+data Inversion.dat;
+
+option solver cplex;
+
+solve;
+
+display x,z;

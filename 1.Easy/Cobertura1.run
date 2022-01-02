@@ -1,0 +1,10 @@
+reset;
+
+model Cobertura1.mod;
+data Cobertura1.dat;
+
+option solver cplex;
+
+solve;
+
+display z, x;
