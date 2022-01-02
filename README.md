@@ -11,5 +11,4 @@ Cualquier comentario o sugerencia por favor escribir a daniel.morillo@javerianac
 
 --
 
-Daniel Morillo Torres, Ph.D.
-Gustavo Gatica, Ph.D.
+Daniel Morillo Torres, Ph.D. y Gustavo Gatica, Ph.D.
