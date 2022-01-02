@@ -10,4 +10,6 @@ Los problemas están divididos en tres carpetas correspondientes a los capítulo
 Cualquier comentario o sugerencia por favor escribir a daniel.morillo@javerianacali.edu.co.
 
 --
-Daniel Morillo Torres Ph.D.
+
+Daniel Morillo Torres, Ph.D.
+Gustavo Gatica, Ph.D.
