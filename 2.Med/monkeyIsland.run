@@ -1,6 +1,7 @@
 reset;
-model monkeyIsland.mod;
-data monkeyIsland.dat;
+
+model MonkeyIsland.mod;
+data MonkeyIsland.dat;
 
 option solver gurobi;
 

@@ -1,7 +1,7 @@
 reset;
 
-model baby.mod;
-data baby.dat;
+model Baby.mod;
+data Baby.dat;
 
 option solver cplex;
 

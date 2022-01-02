@@ -4,8 +4,8 @@ option omit_zero_rows 1;
 option omit_zero_cols 1;
 #option display_1col 5;
 
-model minasOro.mod;
-data minasOro.dat;
+model MinasOro.mod;
+data MinasOro.dat;
 
 option solver cplex;
 

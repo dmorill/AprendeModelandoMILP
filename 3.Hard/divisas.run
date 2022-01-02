@@ -1,7 +1,7 @@
 reset;
 
-model divisas.mod;
-data divisas.dat;
+model Divisas.mod;
+data Divisas.dat;
 
 option display_transpose -10;
 option solver gurobi;

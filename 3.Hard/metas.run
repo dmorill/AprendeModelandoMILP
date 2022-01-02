@@ -1,7 +1,7 @@
 reset;
 
-model metas.mod;
-data metas.dat;
+model Metas.mod;
+data Metas.dat;
 
 option solver gurobi;
 

@@ -1,7 +1,7 @@
 reset;
 
-model bonos.mod;
-data bonos.dat;
+model Bonos.mod;
+data Bonos.dat;
 
 option display_transpose -5;
 option solver cplex;

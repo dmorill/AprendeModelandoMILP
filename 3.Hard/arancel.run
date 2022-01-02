@@ -1,7 +1,7 @@
 reset;
 
-model arancel.mod;
-data arancel.dat;
+model Arancel.mod;
+data Arancel.dat;
 
 option solver gurobi;
 

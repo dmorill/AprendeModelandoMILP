@@ -1,7 +1,7 @@
 reset;
 
-model libros.mod;
-data libros.dat;
+model Libros.mod;
+data Libros.dat;
 
 option solver gurobi;
 

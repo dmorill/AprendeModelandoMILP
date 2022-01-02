@@ -1,7 +1,7 @@
 reset;
 
-model aeropuertoRutas.mod;
-data aeropuertoRutas.dat;
+model AeropuertoRutas.mod;
+data AeropuertoRutas.dat;
 
 option omit_zero_rows 1;
 option solver cplex;

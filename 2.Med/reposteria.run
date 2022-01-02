@@ -1,7 +1,7 @@
 reset;
 
-model reposteria.mod;
-data reposteria.dat;
+model Reposteria.mod;
+data Reposteria.dat;
 
 option solver cplex;
 

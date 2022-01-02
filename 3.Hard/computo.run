@@ -1,9 +1,9 @@
 reset;
 
-model computo.mod;
-data computo.dat;
+model Computo.mod;
+data Computo.dat;
 
-option solver cplex;	#yo uso cplexamp porque tengo cplex en local
+option solver cplex;
 
 solve;
 

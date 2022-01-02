@@ -2,8 +2,8 @@ reset;
 
 option omit_zero_rows 0;
 
-model asignacionEnfer.mod;
-data asignacionEnfer.dat;
+model AsignacionEnfer.mod;
+data AsignacionEnfer.dat;
 
 option solver gurobi;
 

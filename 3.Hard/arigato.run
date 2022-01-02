@@ -1,7 +1,7 @@
 reset;
 
-model arigato.mod;
-data arigato.dat;
+model Arigato.mod;
+data Arigato.dat;
 
 option solver gurobi;
 

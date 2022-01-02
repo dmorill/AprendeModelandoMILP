@@ -1,6 +1,7 @@
 reset;
-model localizacionPlanta.mod;
-data localizacionPlanta.dat;
+
+model LocalizacionPlanta.mod;
+data LocalizacionPlanta.dat;
 
 option solver gurobi;
 

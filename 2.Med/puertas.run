@@ -1,6 +1,7 @@
 reset;
-model puertas.mod
-data puertas.dat;
+
+model Puertas.mod
+data Puertas.dat;
 
 option solver gurobi;
 solve;
