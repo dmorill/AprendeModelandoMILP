@@ -1,0 +1,10 @@
+reset;
+
+model EspHac.mod;
+data EspHac.dat;
+
+option solver cplex;
+
+solve;
+
+display z,E,H;

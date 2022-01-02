@@ -1,0 +1,12 @@
+param D:=
+	1	100
+	2	200
+	3	300
+	4	400
+	5	200
+;	
+param Cf = 30;
+param Ch = 10;
+param Num = 8;
+param C1 = 100;
+param C2 = 100;

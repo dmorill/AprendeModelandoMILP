@@ -1,0 +1,9 @@
+reset;
+model monkeyIsland.mod;
+data monkeyIsland.dat;
+
+option solver gurobi;
+
+solve;
+
+display z, x, y;

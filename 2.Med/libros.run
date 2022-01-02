@@ -1,0 +1,11 @@
+reset;
+
+model libros.mod;
+data libros.dat;
+
+option solver gurobi;
+
+solve;
+
+display z, x;
+display H;

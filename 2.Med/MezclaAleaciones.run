@@ -1,0 +1,9 @@
+reset;
+
+model MezclaAleaciones.mod;
+data MezclaAleaciones.dat;
+
+option solver cplex;
+
+solve;
+display z,X,Y,Z;

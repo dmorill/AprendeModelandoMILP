@@ -1,0 +1,13 @@
+reset;
+
+option omit_zero_rows 0;
+
+model asignacionEnfer.mod;
+data asignacionEnfer.dat;
+
+option solver gurobi;
+
+solve;
+
+display z, x;
+

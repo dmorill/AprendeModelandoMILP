@@ -1,0 +1,11 @@
+reset;
+
+model reposteria.mod;
+data reposteria.dat;
+
+option solver cplex;
+
+solve;
+
+display z, X, H;
+

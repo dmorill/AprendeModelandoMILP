@@ -1,0 +1,10 @@
+reset;
+
+model InvTapabocas.mod;
+data InvTapabocas.dat;
+
+option solver gurobi;
+
+solve;
+
+display z, dem, x, e, I;
