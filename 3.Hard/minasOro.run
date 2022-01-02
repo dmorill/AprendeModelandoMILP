@@ -1,0 +1,16 @@
+reset;
+
+option omit_zero_rows 1;
+option omit_zero_cols 1;
+#option display_1col 5;
+
+model minasOro.mod;
+data minasOro.dat;
+
+option solver cplex;
+
+solve;
+
+display z,x;
+
+

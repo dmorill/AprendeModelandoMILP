@@ -1,0 +1,11 @@
+reset;
+
+model computo.mod;
+data computo.dat;
+
+option solver cplex;	#yo uso cplexamp porque tengo cplex en local
+
+solve;
+
+display z, X;
+display _nvars, _ncons;

@@ -1,0 +1,10 @@
+reset;
+
+model guerra2.mod;
+data guerra2.dat;
+
+option solver cplex;
+
+solve;
+
+display z, x, y;

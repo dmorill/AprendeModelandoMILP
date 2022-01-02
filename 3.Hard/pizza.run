@@ -1,0 +1,14 @@
+reset;
+
+option omit_zero_cols 1;
+option omit_zero_rows 1;
+
+model pizza.mod;
+data pizza.dat;
+
+option solver cplex;
+
+solve;
+
+display _nvars, _ncons;
+display z,x,y;

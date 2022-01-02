@@ -1,0 +1,14 @@
+reset;
+
+option omit_zero_rows 1;
+
+model asignacionEnfer2.mod;
+data asignacionEnfer2.dat;
+
+option solver cplex;
+
+solve;
+
+display z, x, P, aux;
+display yma,yme;
+display CosT.body;

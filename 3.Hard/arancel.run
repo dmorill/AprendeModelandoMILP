@@ -1,0 +1,10 @@
+reset;
+
+model arancel.mod;
+data arancel.dat;
+
+option solver gurobi;
+
+solve;
+
+display z, x, y, A, SP;

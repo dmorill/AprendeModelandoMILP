@@ -1,0 +1,23 @@
+reset;
+
+option omit_zero_cols 0;
+option omit_zero_rows 0;
+
+option display_transpose -20;
+
+model muelles.mod;
+data muelles.dat;
+
+option solver gurobi;
+option gurobi_options 'timelim=60 timing=1';
+
+#option solver cplex;
+#option cplex_options 'timelimit=5 outlev=1';
+
+solve;
+
+display CostoTotal;
+display CostoReal;
+display CONmas, CONmen;
+display Y;
+display X;

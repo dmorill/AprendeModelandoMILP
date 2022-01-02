@@ -1,0 +1,16 @@
+reset;
+
+option omit_zero_rows 1;
+
+model maderas.mod;
+data maderas.dat;
+
+option solver cplex;
+
+solve;
+
+display z,x;
+display y;
+
+#expand bara1, caro1,caro2;
+#expand z;
