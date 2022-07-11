@@ -12,7 +12,7 @@ var y{I} binary;
 var A{I} >= 0;
 var SP{I}>= 0;
 
-maximize z: sum{i in I, j in J} x[i,j]*(V[j]-C[j]) - (sum{j in J}2000*SP[j] + sum{i in I} A[i]);
+maximize z: sum{i in I, j in J} x[i,j]*(V[j]-C[j]) - (sum{i in I}2000*SP[i] + sum{i in I} A[i]);
 s.t.
 rPeso{i in I}: sum{j in J} x[i,j]*PE[j] <= 50 + SP[i];
 presu{i in I}: sum{j in J} x[i,j]*C[j] <= 3000000 + y[i]*PRESU[i];
