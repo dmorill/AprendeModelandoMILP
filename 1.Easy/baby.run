@@ -1,0 +1,10 @@
+reset;
+
+model Baby.mod;
+data Baby.dat;
+
+option solver cplex;
+
+solve;
+
+display z, x;

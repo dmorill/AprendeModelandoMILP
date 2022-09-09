@@ -1,0 +1,11 @@
+reset;
+
+model Jugadores.mod;
+data Jugadores.dat;
+
+option solver cplex;
+
+solve;
+
+display x,z;
+expand r2, r9;

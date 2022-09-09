@@ -1,0 +1,11 @@
+reset;
+
+model ProblemaDeLaDieta.mod;
+data ProblemaDeLaDieta.dat;
+
+option solver cplex;
+
+solve;
+
+display z,x,y;
+display r1.body;

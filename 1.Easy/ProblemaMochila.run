@@ -1,0 +1,9 @@
+reset;
+
+model ProblemaMochila.mod;
+data ProblemaMochila.dat;
+
+option solver cplex;
+solve ;
+display x,z;
+expand r1;

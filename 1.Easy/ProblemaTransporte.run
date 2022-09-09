@@ -1,0 +1,10 @@
+reset;
+
+model ProblemaTransporte.mod;
+data ProblemaTransporte.dat;
+
+option solver cplex;
+
+solve;
+
+display X,Z;

@@ -1,0 +1,9 @@
+reset;
+
+model RestauranteItaliano.mod;
+data RestauranteItaliano.dat;
+option solver cplex;
+
+solve;
+
+display x,z;
