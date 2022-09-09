@@ -1,0 +1,10 @@
+reset;
+
+model Metas.mod;
+data Metas.dat;
+
+option solver gurobi;
+
+solve;
+
+display z, x, yma, yme;

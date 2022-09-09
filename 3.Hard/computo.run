@@ -1,0 +1,11 @@
+reset;
+
+model Computo.mod;
+data Computo.dat;
+
+option solver cplex;
+
+solve;
+
+display z, X;
+display _nvars, _ncons;

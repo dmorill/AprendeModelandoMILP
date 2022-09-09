@@ -1,0 +1,16 @@
+reset;
+
+model Divisas.mod;
+data Divisas.dat;
+
+option display_transpose -10;
+option solver gurobi;
+
+solve;
+
+display z;
+display {i in I, j in I} x[i,j,1];
+display {i in I, j in I} x[i,j,2];
+display {i in I, j in I} x[i,j,3];
+display {i in I, j in I} x[i,j,4];
+display {i in I, j in I} x[i,j,5];

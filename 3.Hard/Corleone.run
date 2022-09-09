@@ -1,0 +1,10 @@
+reset;
+
+model Corleone.mod;
+data Corleone.dat;
+
+option solver cplex;
+
+solve;
+
+display z, x, horas;

@@ -1,0 +1,13 @@
+reset;
+
+model AeropuertoRutas.mod;
+data AeropuertoRutas.dat;
+
+option omit_zero_rows 1;
+option solver cplex;
+
+solve;
+
+expand {k in {4},m in {1}, t in {1}} rBalanceNodos[k,m,t];
+display _nvars, _ncons;
+display z,Days,x,y;

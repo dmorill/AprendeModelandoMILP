@@ -1,0 +1,12 @@
+reset;
+
+model Bonos.mod;
+data Bonos.dat;
+
+option display_transpose -5;
+option solver cplex;
+
+solve;
+
+display z, x; 
+display Sobra, Tengo;

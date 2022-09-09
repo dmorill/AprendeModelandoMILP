@@ -1,0 +1,14 @@
+reset;
+
+option omit_zero_rows 1;
+option omit_zero_cols 1;
+
+model JobShop.mod;
+data JobShop.dat;
+
+option solver gurobi;
+
+solve;
+
+display _nvars, _ncons;
+display makespan,x;
