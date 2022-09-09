@@ -1,9 +1,0 @@
-reset;
-model MezclaCombustible.mod;
-data MezclaCombustible.dat;
-
-option solver gurobi;
-
-solve;
-
-display z,X;

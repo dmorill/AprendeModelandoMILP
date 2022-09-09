@@ -1,9 +1,0 @@
-reset;
-model GuerraUno.mod;
-data GuerraUno.dat;
-
-option solver gurobi;
-
-solve;
-
-display z,x;
