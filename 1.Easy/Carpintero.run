@@ -1,9 +1,0 @@
-reset;
-
-model Carpintero.mod;
-
-option solver gurobi;
-
-solve;
-
-display z, x1, x2;

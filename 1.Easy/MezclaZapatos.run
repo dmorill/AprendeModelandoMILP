@@ -1,9 +1,0 @@
-reset;
-
-model MezclaZapatos.mod;
-data MezclaZapatos.dat;
-option solver cplex;
-
-solve;
-
-display x, Z;

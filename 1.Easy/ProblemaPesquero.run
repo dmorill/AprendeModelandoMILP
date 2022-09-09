@@ -1,9 +1,0 @@
-reset;
-
-model ProblemaPesquero.mod;
-
-option solver cplex;
-
-solve;
-
-display z, x1, x2;
