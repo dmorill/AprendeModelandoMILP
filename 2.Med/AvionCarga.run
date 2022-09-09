@@ -1,0 +1,10 @@
+reset;
+
+model AvionCarga.mod;
+data AvionCarga.dat;
+
+option solver gurobi;
+
+solve;
+
+display U,x;

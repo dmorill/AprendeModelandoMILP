@@ -1,0 +1,10 @@
+reset;
+
+model LocalizacionPlanta.mod;
+data LocalizacionPlanta.dat;
+
+option solver gurobi;
+
+solve;
+
+display z,x,y;

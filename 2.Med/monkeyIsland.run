@@ -1,0 +1,10 @@
+reset;
+
+model MonkeyIsland.mod;
+data MonkeyIsland.dat;
+
+option solver gurobi;
+
+solve;
+
+display z, x, y;

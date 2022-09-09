@@ -1,0 +1,10 @@
+reset;
+
+model Escape.mod;
+data Escape.dat;
+
+option solver gurobi;
+
+solve;
+
+display z,x,y;

@@ -1,0 +1,10 @@
+reset;
+
+model ProduccionMinera.mod;
+data ProduccionMinera.dat;
+
+option solver gurobi;
+
+solve;
+
+display z,X,Y;

@@ -1,0 +1,10 @@
+reset;
+
+model Puertas.mod
+data Puertas.dat;
+
+option solver gurobi;
+solve;
+
+display _nvars, _ncons;
+display costo, x,I,y,z,m;
